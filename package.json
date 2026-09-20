@@ -32,7 +32,9 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "dev": "bun run --watch src/example.ts"
+  "dev": "bun run --watch src/server.ts",
+  "start": "bun run src/server.ts"
+}
   },
   "devDependencies": {
     "@types/bun": "latest"
